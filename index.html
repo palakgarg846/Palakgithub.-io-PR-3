@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Corner Restaurant</title>
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f6f8;
+        color: #333333;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: #8a2b0c;
+        color: #ffffff;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    header p {
+        font-size: 16px;
+        color: #ffe0d1;
+    }
+
+    nav {
+        background-color: #a83a17;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: #ffd6c2;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px 15px;
+    }
+
+    section {
+        background-color: #ffffff;
+        margin-bottom: 25px;
+        padding: 20px;
+        border-radius: 6px;
+        border: 1px solid #dddddd;
+    }
+
+    section h2 {
+        color: #8a2b0c;
+        border-bottom: 2px solid #8a2b0c;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    section p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    table, th, td {
+        border: 1px solid #cccccc;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    th {
+        background-color: #8a2b0c;
+        color: #ffffff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .hours-box {
+        background-color: #fff3e0;
+        border-left: 5px solid #8a2b0c;
+        padding: 15px 20px;
+        margin-top: 10px;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+
+    footer {
+        background-color: #8a2b0c;
+        color: #ffffff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+</style>
+</head>
+<body>
+
+    <header id="home">
+        <h1>Food Corner</h1>
+        <p>Delicious Food | Great Taste | Happy Moments</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>Welcome to Food Corner</h2>
+            <p>
+                Welcome to Food Corner Restaurant. We serve fresh,
+                delicious and hygienic food for our customers.
+            </p>
+        </section>
+
+        <section id="menu">
+            <h2>Our Special Menu</h2>
+            <table>
+                <tr>
+                    <th>Food Item</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>Italian</td>
+                    <td>₹250</td>
+                </tr>
+                <tr>
+                    <td>Paneer Tikka</td>
+                    <td>Indian</td>
+                    <td>₹180</td>
+                </tr>
+                <tr>
+                    <td>Veg Burger</td>
+                    <td>Fast Food</td>
+                    <td>₹120</td>
+                </tr>
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>Beverage</td>
+                    <td>₹100</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="gallery">
+            <h2>Opening Hours</h2>
+            <div class="hours-box">
+                Monday - Sunday: 11:00 AM to 10:00 PM
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Food Corner Restaurant</p>
+            <p>Jaipur, Rajasthan</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Food Corner Restaurant</p>
+    </footer>
+
+</body>
+</html>
